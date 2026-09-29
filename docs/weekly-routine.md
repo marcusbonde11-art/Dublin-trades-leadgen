@@ -41,8 +41,11 @@ the manual runbook if you ever run a batch by hand.
    - status `Follow-up 1 sent` and ≥12 → draft follow-up 2; set `Follow-up 2 drafted`.
    - status `Follow-up 2 sent` and ≥5 business days after follow-up 2 →
      set `Closed - no response`.
-4. **New batch.** Take `New` rows ordered by distance until 10 drafts exist
-   (or the total cap is hit). For each:
+4. **New batch.** Pacing guard first: count rows still in `Drafted` (written
+   but not sent yet). New drafts this week = 10 minus that count (never below 0),
+   so unsent drafts never pile up past 10. If the result is 0, skip this step
+   and say so in the summary. Otherwise take `New` rows ordered by distance
+   until that many drafts exist (or the total cap is hit). For each:
    - Research: Places details (reviews, hours), website/search for owner name,
      services, how customers book, after-hours coverage, review themes.
    - Qualify: owner-operated, not a franchise or acquired brand, active, fits
