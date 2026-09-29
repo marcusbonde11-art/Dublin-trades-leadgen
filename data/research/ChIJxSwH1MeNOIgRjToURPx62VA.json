@@ -1,0 +1,130 @@
+{
+  "id": "ChIJxSwH1MeNOIgRjToURPx62VA",
+  "nationalPhoneNumber": "(614) 975-2650",
+  "formattedAddress": "951 N High St, Worthington, OH 43085, USA",
+  "rating": 5,
+  "websiteUri": "http://carrionair.com/",
+  "regularOpeningHours": {
+    "weekdayDescriptions": [
+      "Monday: 8:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+      "Tuesday: 8:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+      "Wednesday: 8:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+      "Thursday: 8:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+      "Friday: 8:00\u202fAM\u2009\u2013\u20094:30\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "userRatingCount": 122,
+  "displayName": {
+    "text": "Carrion Air",
+    "languageCode": "en"
+  },
+  "reviews": [
+    {
+      "name": "places/ChIJxSwH1MeNOIgRjToURPx62VA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xVM1duWnViSEZwY1RFd1ducGhTR1ZQVlZSTk1uYxAB",
+      "relativePublishTimeDescription": "2 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Carrion has worked on our AC on two different issues we've had, and they've been awesome to work with. They've always been quick to come out and are straight forward with what needs done and how much it might cost. Great local company I trust and never have to worry about getting ripped off by. I can't recommend them enough.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Carrion has worked on our AC on two different issues we've had, and they've been awesome to work with. They've always been quick to come out and are straight forward with what needs done and how much it might cost. Great local company I trust and never have to worry about getting ripped off by. I can't recommend them enough.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Jake Wuensch",
+        "uri": "https://www.google.com/maps/contrib/114397122826354111574/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVYS5uH5DaNCDM4WvVarZl-wPciiQ8_ZfJkKpASNICthhg2_w=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-07-30T19:28:55.334616326Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xVM1duWnViSEZwY1RFd1ducGhTR1ZQVlZSTk1uYxAB&d=17924085&t=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xVM1duWnViSEZwY1RFd1ducGhTR1ZQVlZSTk1uYxAB!2m1!1s0x88388dc7d4072cc5:0x50d97afc44143a8d"
+    },
+    {
+      "name": "places/ChIJxSwH1MeNOIgRjToURPx62VA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pFd1FYZzRhMUpZVTJ0QlIxSmtaVVpHV2xOeU9WRRAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 5,
+      "text": {
+        "text": "As a homeowner, I can\u2019t say enough good things about Carrion Air. Enrique was friendly, honest, and easy to work with from start to finish. He showed up when he said he would, explained what was going on with my system, and got everything fixed quickly and professionally. It\u2019s refreshing to find a company that takes pride in their work and treats customers right. I would definitely recommend Carrion Air to anyone needing HVAC service and will be calling Enrique again in the future.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "As a homeowner, I can\u2019t say enough good things about Carrion Air. Enrique was friendly, honest, and easy to work with from start to finish. He showed up when he said he would, explained what was going on with my system, and got everything fixed quickly and professionally. It\u2019s refreshing to find a company that takes pride in their work and treats customers right. I would definitely recommend Carrion Air to anyone needing HVAC service and will be calling Enrique again in the future.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Patrick Foster",
+        "uri": "https://www.google.com/maps/contrib/116552160711849967960/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocImOqcPg1epN1nlSUfpZWMR5nVh6GHHbgTOPH3trUTl6K5eiA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-05-30T17:40:51.061135808Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pFd1FYZzRhMUpZVTJ0QlIxSmtaVVpHV2xOeU9WRRAB&d=17924085&t=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pFd1FYZzRhMUpZVTJ0QlIxSmtaVVpHV2xOeU9WRRAB!2m1!1s0x88388dc7d4072cc5:0x50d97afc44143a8d"
+    },
+    {
+      "name": "places/ChIJxSwH1MeNOIgRjToURPx62VA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xRMGRqUm1Xa2xvVlc5ZmFqUnROSFIzWmxCMmQyYxAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I\u2019m so grateful to have Carrion Air to installed a new HVAC system at my house.  I loved how efficient and professional the service team was.  They answered all of my questions I had in regard to the equipment.  I was very pleased with my new system.  I would 100% recommend them to anyone in need of any HVAC work.  They were excellent!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I\u2019m so grateful to have Carrion Air to installed a new HVAC system at my house.  I loved how efficient and professional the service team was.  They answered all of my questions I had in regard to the equipment.  I was very pleased with my new system.  I would 100% recommend them to anyone in need of any HVAC work.  They were excellent!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Liliana Cepeda",
+        "uri": "https://www.google.com/maps/contrib/112201932992800835231/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocII1JUuhrUg_iHTz1ZuLtycXALGIcBnUFJVrWvC_3EAkHhtFQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-05-23T18:29:52.977024055Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xRMGRqUm1Xa2xvVlc5ZmFqUnROSFIzWmxCMmQyYxAB&d=17924085&t=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xRMGRqUm1Xa2xvVlc5ZmFqUnROSFIzWmxCMmQyYxAB!2m1!1s0x88388dc7d4072cc5:0x50d97afc44143a8d"
+    },
+    {
+      "name": "places/ChIJxSwH1MeNOIgRjToURPx62VA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2twTVltVkpXRUZrV1VReE1HOXNUVnA0WldsbldWRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I recently had a positive experience with carrion air, which provided excellent service from start to finish. Their technicians were prompt, professional, and knowledgeable about the HVAC system. They thoroughly assessed my unit, explained the necessary repairs in clear terms, and completed the work efficiently. The pricing was transparent, and I appreciated their honesty throughout the process. Overall, I would recommend carrion air for anyone in need of HVAC services, as they demonstrated a strong commitment to customer satisfaction and technical expertise.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I recently had a positive experience with carrion air, which provided excellent service from start to finish. Their technicians were prompt, professional, and knowledgeable about the HVAC system. They thoroughly assessed my unit, explained the necessary repairs in clear terms, and completed the work efficiently. The pricing was transparent, and I appreciated their honesty throughout the process. Overall, I would recommend carrion air for anyone in need of HVAC services, as they demonstrated a strong commitment to customer satisfaction and technical expertise.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Jd Davis",
+        "uri": "https://www.google.com/maps/contrib/111482228786227670267/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJou1xa-c_6p-pIxZB0QEAz64SWqiiQB0uVbWl3Vn2mTZM5XA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-03-27T03:17:15.132895543Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2twTVltVkpXRUZrV1VReE1HOXNUVnA0WldsbldWRRAB&d=17924085&t=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2twTVltVkpXRUZrV1VReE1HOXNUVnA0WldsbldWRRAB!2m1!1s0x88388dc7d4072cc5:0x50d97afc44143a8d"
+    },
+    {
+      "name": "places/ChIJxSwH1MeNOIgRjToURPx62VA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xoTFdqVXlhMFo2Um5vNGRHTk5VMWREUTJ4cGRWRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Although I haven\u2019t had any work completed yet, my experience with this AC company has been very positive so far. From my initial inquiry, their team has been professional, responsive, and easy to communicate with, taking the time to answer all of my questions without making me feel rushed or pressured. They provided clear information about their services, upfront estimates, and were transparent about scheduling, which gave me confidence in their approach. What stood out most was their friendly and helpful attitude, making the entire process smooth and stress-free. Based on this experience, I feel comfortable moving forward with them and would recommend them to others looking for a reliable and honest AC company.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Although I haven\u2019t had any work completed yet, my experience with this AC company has been very positive so far. From my initial inquiry, their team has been professional, responsive, and easy to communicate with, taking the time to answer all of my questions without making me feel rushed or pressured. They provided clear information about their services, upfront estimates, and were transparent about scheduling, which gave me confidence in their approach. What stood out most was their friendly and helpful attitude, making the entire process smooth and stress-free. Based on this experience, I feel comfortable moving forward with them and would recommend them to others looking for a reliable and honest AC company.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "DIMITRI BOUMIS",
+        "uri": "https://www.google.com/maps/contrib/108478249534084368318/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWpuTlrudnx3eOd7ANgTRQfMJa4yhHnPQU3_7AYr6ySiNU2yk4=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-03-26T22:36:17.199439081Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xoTFdqVXlhMFo2Um5vNGRHTk5VMWREUTJ4cGRWRRAB&d=17924085&t=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xoTFdqVXlhMFo2Um5vNGRHTk5VMWREUTJ4cGRWRRAB!2m1!1s0x88388dc7d4072cc5:0x50d97afc44143a8d"
+    }
+  ]
+}

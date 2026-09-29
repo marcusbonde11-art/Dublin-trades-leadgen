@@ -1,0 +1,4 @@
+data/raw_places.json
+__pycache__/
+.env
+*.key

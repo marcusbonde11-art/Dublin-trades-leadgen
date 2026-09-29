@@ -1,0 +1,24 @@
+{
+  "batch": "2026-09-29-batch-01",
+  "drafts": [
+    {"row": 12, "business": "Old Hilliard Plumbing", "to": "Support@oldhilliardplumbing.com", "draft_id": "r-494425895224691875", "thread_id": "1a0ee1823eec7044", "fit": 7},
+    {"row": 14, "business": "Accurate Plumbing", "to": "servicedept21@yahoo.com", "draft_id": "r3983153932988276531", "thread_id": "1a0ee182eee2ca33", "fit": 7},
+    {"row": 39, "business": "McCoy Heating and Air Conditioning", "to": "office@mccoyheatingandair.com", "draft_id": "r5186794458978146914", "thread_id": "1a0ee185dff10273", "fit": 7},
+    {"row": 28, "business": "Heartland Heating & Cooling", "to": "customerservice@heartlandheating.org", "draft_id": "r-2202016773034694816", "thread_id": "1a0ee18693912a2f", "fit": 7},
+    {"row": 29, "business": "The Heating and Cooling Pro", "to": "info@theheatingandcoolingpro.com", "draft_id": "r-7111751436563868267", "thread_id": "1a0ee18a97e1029e", "fit": 8},
+    {"row": 34, "business": "Northland Heating & Air Conditioning", "to": "northlandheating411@gmail.com", "draft_id": "r-3410059035002960845", "thread_id": "1a0ee18e175a844f", "fit": 6},
+    {"row": 44, "business": "Trusty Sewer & Drain", "to": "info@calltrusty.com", "draft_id": "r-5819531813878985900", "thread_id": "1a0ee18ece23b700", "fit": 6},
+    {"row": 58, "business": "Clingman Heating & Cooling", "to": "rich@clingmanhvac.com", "draft_id": "r4505174689616751420", "thread_id": "1a0ee18f6e9840d4", "fit": 6},
+    {"row": 54, "business": "The Local Plumber LLC", "to": "trevor@localplumbercolumbus.com", "draft_id": "r1447366054288250122", "thread_id": "1a0ee190422e9933", "fit": 8},
+    {"row": 24, "business": "AireCom HVAC", "to": "service@airecomhvac.com", "draft_id": "r1538199552683709850", "thread_id": "1a0ee190e838ed8e", "fit": 6}
+  ],
+  "no_email_rows": [5, 6, 8, 9, 15, 16, 17, 20, 21, 23, 26, 27, 30, 31, 32, 35, 36, 38, 40, 41, 43, 45, 47, 48, 49, 50, 52, 53, 55, 62],
+  "disqualified_rows": {
+    "2": "Peterman Brothers: large multi-state company",
+    "4": "Air Force One: large commercial mechanical contractor",
+    "7": "Right Way: 3 locations, HQ Reynoldsburg",
+    "18": "Wolfe & Sons: acquired by The Waterworks",
+    "19": "Mr. French Drain: yard drainage/landscaping, not plumbing",
+    "25": "The Comfortworks: part of The Waterworks"
+  }
+}

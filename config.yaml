@@ -1,0 +1,86 @@
+# Pipeline configuration. Change these, not the code.
+
+sender:
+  name: Marcus Bonde
+  email: marcusbonde11@gmail.com
+  # CAN-SPAM requires a valid physical postal address in every commercial email.
+  postal_address: "5060 Donegal Cliffs Drive, Dublin, OH 43017"
+
+territory:
+  center: {lat: 40.0992, lng: -83.1141}   # Dublin, OH
+  max_distance_miles: 12
+  towns: [Dublin, Hilliard, Powell, Plain City, Worthington, Upper Arlington, Lewis Center, Columbus]
+
+trades:
+  hvac: ["HVAC contractor", "heating and air conditioning", "furnace repair"]
+  plumbing: ["plumber", "plumbing contractor", "drain cleaning"]
+
+qualification:
+  min_reviews: 10          # below this = too new / not active online
+  max_reviews: 700         # above this = likely too big to be our buyer
+  min_rating: 3.8
+  exclude_name_patterns:   # national franchises / large multi-location brands
+    - "one hour"
+    - "roto-rooter"
+    - "mr. rooter"
+    - "benjamin franklin"
+    - "ars"
+    - "rescue rooter"
+    - "service experts"
+    - "aire serv"
+    - "mr. electric"
+    - "home depot"
+    - "lowe's"
+    - "sears"
+    - "temperaturepro"
+    - "zoom drain"
+    - "mr. handyman"
+    - "mister sparky"
+    - "bath tune-up"
+    - "american leak detection"
+    - "baths r us"
+    - "breeze brothers"
+    - "ferguson"
+    - "univar"
+    - "r & t yoder"
+  multi_location_url_patterns: ["/locations/", "/location/", "/service-areas/", "/service-area/"]
+  # A business must match one of these (name or website) to count as HVAC / plumbing...
+  trade_keywords: [heat, cool, air, hvac, plumb, drain, sewer, furnace, comfort, mechanical, "water heater", rooter, thermo, temp]
+  # ...and must not look primarily like one of these.
+  exclude_keywords: [remodel, bath, kitchen, handyman, gutter, restoration, roof, construction, septic, supply, supplies, filter, "dryer vent", "duct clean", ductclean, electric, irrigation, "property solutions"]
+  # Google Places primaryType values that count as an HVAC / plumbing business.
+  allowed_primary_types:
+    - plumber
+    - hvac_contractor
+    - air_conditioning_contractor
+    - heating_contractor
+    - general_contractor
+    - contractor
+    - service
+  min_fit_score_to_draft: 6    # 0-10, assigned during research
+
+pacing:
+  new_drafts_per_week: 10      # hard cap on first-touch drafts
+  max_total_drafts_per_week: 25   # new + follow-ups
+  followup_business_days: [5, 12]  # after first send; max 2 follow-ups
+  draft_day: Monday
+
+reply_check:
+  schedule: "every 4 hours, 08:00-20:00 America/New_York"
+
+gmail_labels:              # name -> Gmail label ID
+  review:    {name: "Outreach/To Review", id: Label_21}
+  active:    {name: "Outreach/Active",    id: Label_22}
+  replied:   {name: "Outreach/Replied",   id: Label_23}
+  processed: {name: "Outreach/Processed", id: Label_24}   # hidden; set by the reply watcher
+
+tracker:
+  spreadsheet_id: 1KVkBKzi4XFJtNQ1ySj7DWp4tAMojxOUZoFXxIM1qtTg
+  tab: Pipeline
+  thread_id_column: T
+
+make:                      # team 3002223 (free plan: max 2 active scenarios)
+  reply_watcher: 6446669   # keep ACTIVE
+  sheets_api_tool: 6446598 # keep ACTIVE
+  gmail_api_tool: 6446597  # activate only when needed
+  create_draft_tool: 6446906
