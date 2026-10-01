@@ -43,13 +43,13 @@ def miles(a_lat, a_lng, b_lat, b_lng):
     return 2 * r * math.asin(math.sqrt(h))
 
 
-def search(key, query, center, budget):
+def search(key, query, center, radius_mi, budget):
     headers = {"X-Goog-Api-Key": key, "X-Goog-FieldMask": FIELDS}
     body = {
         "textQuery": query,
         "pageSize": 20,
         "locationBias": {"circle": {"center": {"latitude": center["lat"], "longitude": center["lng"]},
-                                    "radius": 25000.0}},
+                                    "radius": min(radius_mi * 1609.34, 50000.0)}},
     }
     while budget[0] > 0:
         budget[0] -= 1
@@ -146,7 +146,8 @@ def main():
         for trade, terms in cfg["trades"].items():
             for term in terms:
                 for town in cfg["territory"]["towns"]:
-                    for place in search(key, f"{term} in {town}, Ohio", cfg["territory"]["center"], budget):
+                    for place in search(key, f"{term} in {town}, Ohio", cfg["territory"]["center"],
+                                        cfg["territory"]["max_distance_miles"], budget):
                         raw.append([trade, place])
         os.makedirs(cache.parent, exist_ok=True)
         cache.write_text(json.dumps(raw))
