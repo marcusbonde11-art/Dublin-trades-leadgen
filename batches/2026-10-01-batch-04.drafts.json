@@ -1,0 +1,20 @@
+{
+  "batch": "2026-10-01-batch-04",
+  "drafts": [
+    {"row": 72, "business": "Mayfield Plumbing And Excavation", "to": "MayfieldPlumbing614@gmail.com", "draft_id": "r7614667161694715923", "thread_id": "1a0f9e6952d3ccc9", "fit": 7},
+    {"row": 73, "business": "Royal Plumbing Pros", "to": "royalplumbing09@gmail.com", "draft_id": "r-7222033121799458215", "thread_id": "1a0f9e6a168deebe", "fit": 6},
+    {"row": 74, "business": "D&L Plumbing", "to": "dlplumbing.backflow@gmail.com", "draft_id": "r-1976399723312325464", "thread_id": "1a0f9e6aca2cca61", "fit": 7},
+    {"row": 75, "business": "Wise Heating and Cooling LLC", "to": "sales@wiseheatingandcooling.com", "draft_id": "r3160319561867920733", "thread_id": "1a0f9e6b8800a8be", "fit": 7}
+  ],
+  "researched_rows": {"76": "Eaton Plumbing: fit 5, 50+ employees"},
+  "disqualified_rows": {
+    "77": "The Waterworks: multi-brand group",
+    "78": "1-Tom-Plumber: national franchise",
+    "79": "Bexley Heating & Cooling: likely Hilliard-Dublin network",
+    "80": "Delaware Heating & Air: likely Hilliard-Dublin network",
+    "81": "New Albany Heating & Cooling: likely Hilliard-Dublin network",
+    "82": "New Albany Plumbing & Drain: likely Hilliard-Dublin network"
+  },
+  "no_email_rows": [83, 84, 85],
+  "new_rows": [86, 87, 88, 89, 90, 91, 92]
+}
