@@ -53,9 +53,10 @@ the manual runbook if you ever run a batch by hand.
    - Email: only a published business address. None → `No email - call/visit`.
    - Score fit 0-10 (automation opportunity + size + proximity). Below 6 →
      `Researched`, not drafted.
-   - Write the email per `docs/tone-guide.md`. Create the Gmail draft, then add
-     labels `Outreach/To Review` (Label_21) and `Outreach/Active` (Label_22)
-     to the draft message.
+   - Write the email per `docs/tone-guide.md`. It must end with the standard
+     no-pressure closing line from rule 7, not a sales pitch. Create the Gmail
+     draft, then add labels `Outreach/To Review` (Label_21) and
+     `Outreach/Active` (Label_22) to the draft message.
    - Write back to the row: fit_score, contact_name, contact_email,
      email_source, personalization_hook, research_notes, draft_id,
      **thread_id** (required, because the reply watcher matches on it), status

@@ -18,7 +18,16 @@ way he'd talk to an owner at the supply house counter.
    didn't happen, never invent stats or results, never fake urgency.
 6. **Subject line:** lowercase, plain, specific to them, no clickbait
    (e.g. `question about weekend calls`, `saw the reviews for your crew`).
-7. **Footer (required, CAN-SPAM):** name, phone optional, postal address, and
+7. **Close with the no-pressure line, not a pitch.** Don't sell the
+   automation service or describe what Marcus would build for them. Use this
+   standard closing (light wording tweaks are fine):
+   > No pitch — if it's useful, happy to share what's worked for other
+   > one-truck shops to not miss calls when they're out on a job. If not, no
+   > worries at all.
+
+   If "one-truck shops" doesn't fit the business (for example, a family shop
+   with several crews), say "small shops" instead so the line stays accurate.
+8. **Footer (required, CAN-SPAM):** name, phone optional, postal address, and
    a plain opt-out line.
 
 ## Template shape (adapt, don't paste)
@@ -34,8 +43,8 @@ thing).
 
 {One easy question}?
 
-No pitch. If it's useful I'm happy to share what I've seen work for other
-local shops; if not, no worries at all.
+No pitch — if it's useful, happy to share what's worked for other one-truck
+shops to not miss calls when they're out on a job. If not, no worries at all.
 
 Marcus Bonde
 Dublin, OH
