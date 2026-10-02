@@ -125,6 +125,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--known", default=str(ROOT / "data/known_place_ids.txt"))
     ap.add_argument("--out", default=str(ROOT / "data/discovered.csv"))
+    ap.add_argument("--towns", help="comma-separated towns to search instead of territory.towns")
     ap.add_argument("--from-cache", action="store_true",
                     help="re-screen the last raw API results without calling the API")
     args = ap.parse_args()
@@ -142,10 +143,11 @@ def main():
         key = os.environ.get("GOOGLE_PLACES_API_KEY")
         if not key:
             sys.exit("Set GOOGLE_PLACES_API_KEY")
+        towns = [t.strip() for t in args.towns.split(",")] if args.towns else cfg["territory"]["towns"]
         raw = []
         for trade, terms in cfg["trades"].items():
             for term in terms:
-                for town in cfg["territory"]["towns"]:
+                for town in towns:
                     for place in search(key, f"{term} in {town}, Ohio", cfg["territory"]["center"],
                                         cfg["territory"]["max_distance_miles"], budget):
                         raw.append([trade, place])
